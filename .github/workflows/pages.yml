@@ -1,4 +1,4 @@
-name: Pages
+name: page
 
 on:
   push:
@@ -31,8 +31,9 @@ jobs:
         run: npm install
 
       - name: Build Hexo
-        run: npx hexo generate
-
+        run: |
+          npx hexo clean
+          npx hexo generate
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
