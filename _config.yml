@@ -9,11 +9,11 @@ description: 'ROS学习笔记，包括底盘、机械臂、代码和踩坑记录
 keywords:
 author: 李子同
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://dongz803.github.io
+url: https://dongz803.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,7 +100,3 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-   type: git
-   repository: https://github.com/dongz803/dongz803.github.io.git  # 你的仓库地址
-   branch: gh-pages
