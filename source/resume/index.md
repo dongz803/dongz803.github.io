@@ -41,9 +41,7 @@ sidebar: false
 
 ## 教育经历
 
-请在这里填写学校、专业、学历及时间。
-
 ## 联系方式
 
 - GitHub：[dongz803](https://github.com/dongz803)
-- 邮箱：请填写你的邮箱
+- 邮箱：13235811227@qq.com
