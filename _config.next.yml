@@ -1,0 +1,49 @@
+scheme: Gemini
+darkmode: true
+
+menu:
+  home: / || fa fa-home
+  resume: /resume/ || fa fa-id-card
+  chassis: /chassis/ || fa fa-car
+  arm: /arm/ || fa fa-robot
+  neural: /neural-network/ || fa fa-brain
+  notes: /notes/ || fa fa-book
+  archives: /archives/ || fa fa-archive
+
+
+sidebar:
+  position: left
+  display: post
+
+toc:
+  enable: true
+  number: true
+  wrap: true
+  expand_all: false
+  max_depth: 4
+
+codeblock:
+  copy_button:
+    enable: true
+    style: flat
+  language: true
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+reading_progress:
+  enable: true
+  start_at: left
+  position: top
+  reversed: false
+  color: "#2563eb"
+  height: 3px
+
+github_banner:
+  enable: true
+  permalink: https://github.com/dongz803
+
+custom_file_path:
+  style: source/_data/styles.styl

@@ -4,3 +4,16 @@ db.json
 .deploy_git/
 .DS_Store
 
+
+# Hexo generated files
+public/
+db.json
+.deploy_git/
+node_modules/
+
+# Editor temporary files
+*.swp
+*.swo
+
+# Local backup files
+_config.yml.homepage-backup
