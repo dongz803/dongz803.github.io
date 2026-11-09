@@ -17,3 +17,7 @@ node_modules/
 
 # Local backup files
 _config.yml.homepage-backup
+
+# Sites build output and local publication checkout
+dist/
+.sites/
