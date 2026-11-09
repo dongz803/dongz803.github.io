@@ -11,21 +11,21 @@ header: false
 
 <div class="robot-kicker">ROBOTICS · ROS · MOTION PLANNING · NEURAL NETWORKS</div>
 
-<h1>李子同的机器人技术主页</h1>
+<h1>机器人技术与学习记录</h1>
 
 <p class="robot-description">
-专注移动机器人与机械臂方向，同时学习神经网络基础，记录 SLAM、导航建图、PyRoki、IKFast、逆运动学与机器人抓取实验。
+围绕移动底盘、自搭机械臂与换盘机器人项目，记录系统集成、逆运动学、点云处理和机器人视觉的学习过程。
 </p>
 
 <div class="robot-tags">
 <span>ROS</span>
-<span>SLAM</span>
-<span>Navigation</span>
+<span>ROS 2</span>
+<span>MoveIt</span>
 <span>PyRoki</span>
-<span>IKFast</span>
-<span>Grasping</span>
-<span>PyTorch</span>
-<span>Neural Network</span>
+<span>MuJoCo</span>
+<span>PCL</span>
+<span>RGB-D</span>
+<span>YOLO</span>
 </div>
 
 <div class="robot-actions">
@@ -63,11 +63,11 @@ header: false
 <div class="robot-card-number">02</div>
 <div class="robot-card-icon">🚗</div>
 <h3>移动底盘</h3>
-<p>整理移动机器人运动学、SLAM、地图构建、定位和自主导航。</p>
+<p>记录 P3 底盘、手柄、舵机和深度相机的 ROS 集成。</p>
 <div class="robot-card-keywords">
-<span>SLAM</span>
-<span>Mapping</span>
-<span>Navigation</span>
+<span>ROS 2</span>
+<span>RosAria</span>
+<span>MoveIt</span>
 </div>
 <strong>查看底盘研究 →</strong>
 </a>
@@ -76,11 +76,11 @@ header: false
 <div class="robot-card-number">03</div>
 <div class="robot-card-icon">🦾</div>
 <h3>机械臂</h3>
-<p>记录逆运动学、PyRoki、IKFast、运动规划与抓取实验。</p>
+<p>记录自搭机械臂、PyRoki、MoveIt 与换盘机器人项目。</p>
 <div class="robot-card-keywords">
 <span>PyRoki</span>
-<span>IKFast</span>
-<span>Grasping</span>
+<span>MuJoCo</span>
+<span>PCL</span>
 </div>
 <strong>查看机械臂研究 →</strong>
 </a>
@@ -89,11 +89,11 @@ header: false
 <div class="robot-card-number">04</div>
 <div class="robot-card-icon">🧠</div>
 <h3>神经网络基础</h3>
-<p>记录感知机、激活函数、反向传播、PyTorch 与基础模型实验。</p>
+<p>以 YOLO 槽口检测为入口，整理数据、训练和视觉应用。</p>
 <div class="robot-card-keywords">
-<span>MLP</span>
-<span>PyTorch</span>
-<span>Backprop</span>
+<span>YOLO</span>
+<span>RGB-D</span>
+<span>Dataset</span>
 </div>
 <strong>查看学习记录 →</strong>
 </a>
@@ -111,20 +111,35 @@ header: false
 <div class="robot-focus-items">
 <div>
 <strong>01</strong>
-<span>机械臂逆运动学与解算器对比</span>
+<span>自搭机械臂的模型、关节通信与控制</span>
 </div>
 <div>
 <strong>02</strong>
-<span>机械臂抓取规划与实验验证</span>
+<span>运动规划与逆运动学工具接入</span>
 </div>
 <div>
 <strong>03</strong>
-<span>移动机器人 SLAM 与自主导航</span>
+<span>换盘机器人仿真与槽口视觉</span>
 </div>
 <div>
 <strong>04</strong>
-<span>神经网络基础与 PyTorch 实践</span>
+<span>点云几何与神经网络应用</span>
 </div>
 </div>
 </section>
 </div>
+
+
+## 项目与学习记录
+
+按公开仓库和个人实践整理，分别标注项目、学习练习与开源参考。
+
+- **机器人项目：** [换盘机器人：仿真执行与真实视觉](/notes/huanpan-robot/)
+- **平台实践：** [自搭机械臂与 OpenArm](/notes/openarm-practice/)
+- **移动底盘：** [P3 的驱动、手柄与相机集成](/notes/p3-chassis/)
+- **运动学练习：** [PyRoki 与 MoveIt 接入](/notes/pyroki-moveit/)
+- **几何感知：** [PCL 点云处理学习](/notes/pcl-learning/)
+- **视觉学习：** [从数据到槽口检测](/notes/robot-vision-learning/)
+- **开源参考：** [MPL 与运动基元规划](/notes/motion-primitives-reference/)
+
+[内容与配图来源](/credits/) · [浏览全部笔记](/notes/)

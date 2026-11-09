@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: keep learning
-subtitle: 'ROS learning notes and code records'
-description: 'ROS学习笔记，包括底盘、机械臂、代码和踩坑记录'
+title: Keep Learning
+subtitle: '机器人实践与学习记录'
+description: '机器人实践与学习记录：移动底盘、自搭机械臂、运动规划、点云处理与机器人视觉。'
 keywords:
-author: 李子同
+author: dongz803
 language: zh-CN
 timezone: 'Asia/Shanghai'
 

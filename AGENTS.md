@@ -17,3 +17,13 @@
   publication alone does not update GitHub Pages; report which hosts were updated.
 - Inspect Git state before changing files. Keep content placeholders and planned
   work distinguishable from completed projects and validated results.
+- Keep visible pages free of concrete code, shell commands, and code screenshots.
+  Explain project context, methods, learning, and documented results in Chinese.
+- Use docs/CONTENT_SOURCES.md for repository snapshots and attribution. Distinguish
+  personal projects, open-source adaptations, learning exercises, and references.
+- Label diagrams as illustrations and upstream demos as upstream material. Preserve
+  image source captions and license files when reusing assets.
+
+- Preserve the existing Hexo/NexT theme styling unless the user requests a visual redesign.
+- The real name may appear only on the resume page. Use dongz803 for global author,
+  sidebar, footer, metadata and Site titles.
